@@ -5,7 +5,7 @@ class DBController {
 	}
 	
 	function connectDB() {
-		$connect = mysqli_connect("localhost", "root","", "tblproduct");
+		$connect = mysqli_connect("database-1.cpw2kg8w2ehk.us-east-1.rds.amazonaws.com", "admin","12345678", "tblproduct");
 		return $connect;
 	}
 	
